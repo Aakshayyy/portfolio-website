@@ -1,0 +1,460 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="dark">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Akshya | Software Engineer</title>
+    <meta name="description" content="Portfolio of Akshya Rao, Software Engineer specializing in modern web development and algorithms.">
+    <!-- Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600&family=Outfit:wght@400;600;700;800&display=swap" rel="stylesheet">
+    <!-- Icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <!-- CSS -->
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- Custom Cursor -->
+    <div class="cursor-dot" data-cursor-dot></div>
+    <div class="cursor-outline" data-cursor-outline></div>
+
+    <!-- Preloader -->
+    <div class="loader" id="loader">
+        <div class="loader-text">Akshya<span class="accent">.</span></div>
+    </div>
+
+    <!-- Navigation -->
+    <header class="header" data-header>
+        <div class="container nav-container">
+            <a href="#" class="logo">Akshya<span class="accent">.</span></a>
+            <nav class="navbar" data-navbar>
+                <ul class="nav-list">
+                    <li><a href="#home" class="nav-link active">Home</a></li>
+                    <li><a href="#about" class="nav-link">About</a></li>
+                    <li><a href="#skills" class="nav-link">Skills</a></li>
+                    <li><a href="#projects" class="nav-link">Projects</a></li>
+                    <li><a href="#experience" class="nav-link">Experience</a></li>
+                    <li><a href="#contact" class="nav-link">Contact</a></li>
+                </ul>
+            </nav>
+            <div class="header-actions">
+                <div class="theme-dots" data-theme-dots>
+                    <button class="theme-dot" data-theme-set="dark" aria-label="Dark Theme"></button>
+                    <button class="theme-dot" data-theme-set="light" aria-label="Light Theme"></button>
+                    <button class="theme-dot" data-theme-set="red" aria-label="Red Theme"></button>
+                    <button class="theme-dot" data-theme-set="yellow" aria-label="Yellow Theme"></button>
+                </div>
+                <div class="menu-toggle" data-nav-toggler>
+                    <span></span><span></span><span></span>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <main>
+        <!-- Hero Section -->
+        <section id="home" class="hero section">
+            <div class="hero-bg-glow"></div>
+            <div class="container hero-container">
+                <div class="hero-content" data-reveal="left">
+                    <p class="hero-subtitle">Hello, I'm</p>
+                    <h1 class="hero-title">Akshya</h1>
+                    <h2 class="hero-role">
+                        <span class="typing-text"></span><span class="cursor">&nbsp;</span>
+                    </h2>
+                    <p class="hero-text">
+                        A passionate developer specializing in modern web technologies, problem-solving, and building intuitive user experiences.
+                    </p>
+                    <div class="hero-actions">
+                        <a href="#projects" class="btn btn-primary">
+                            <span>View Projects</span> <i class="fa-solid fa-arrow-right"></i>
+                        </a>
+                        <a href="resume.pdf" class="btn btn-secondary" download>
+                            <span>Download Resume</span> <i class="fa-solid fa-download"></i>
+                        </a>
+                    </div>
+                    <div class="social-links">
+                        <a href="https://github.com/Aakshayyy" target="_blank" class="social-icon" aria-label="GitHub"><i class="fa-brands fa-github"></i></a>
+                        <a href="https://www.linkedin.com/in/akshya-rao-a89953294/" target="_blank" class="social-icon" aria-label="LinkedIn"><i class="fa-brands fa-linkedin-in"></i></a>
+                        <a href="https://akshyarao006247@gmail.com" class="social-icon" aria-label="Email"><i class="fa-solid fa-envelope"></i></a>
+                    </div>
+                </div>
+                <div class="hero-img-wrapper" data-reveal="right">
+                    <div class="hero-img">
+                        <img src="profile-nobg.png" alt="Akshya Profile" class="profile-photo">
+                    </div>
+                    <div class="glow-effect"></div>
+                </div>
+            </div>
+        </section>
+
+        <!-- About Section -->
+        <section id="about" class="about section">
+            <div class="container">
+                <div class="section-heading" data-reveal="up">
+                    <h2 class="section-title">About Me</h2>
+                    <div class="underline"></div>
+                </div>
+                <div class="about-content">
+                    <div class="about-text" data-reveal="left">
+                        <p>
+                            I am a dedicated <strong>Computer Science</strong> student at Lovely Professional University with a strong foundation in both front-end and back-end technologies. I possess hands-on experience in building structured, engaging, and fast-loading web applications using <strong>HTML, CSS, JavaScript, and NodeJS</strong>.
+                        </p>
+                        <p>
+                            Beyond web development, I am an avid problem solver. I have successfully resolved over <strong>130+ DSA problems on Geeks for Geeks</strong> and <strong>150+ algorithm challenges on LeetCode</strong>, reflecting my consistent learning approach and robust fundamentals in C++ and algorithmic logic.
+                        </p>
+                        <div class="stats-container">
+                            <div class="stat-card">
+                                <h3 class="stat-number">120+</h3>
+                                <p class="stat-text">LeetCode Problems</p>
+                            </div>
+                            <div class="stat-card">
+                                <h3 class="stat-number">180+</h3>
+                                <p class="stat-text">GFG Points</p>
+                            </div>
+                            <div class="stat-card">
+                                <h3 class="stat-number">4+</h3>
+                                <p class="stat-text">Certifications</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Skills Section -->
+        <section id="skills" class="skills section glass-section">
+            <div class="container">
+                <div class="section-heading" data-reveal="up">
+                    <h2 class="section-title">Technical Skills</h2>
+                    <div class="underline"></div>
+                </div>
+                <div class="skills-grid">
+                    <div class="skill-box" data-reveal="up" data-reveal-delay="100">
+                        <i class="fa-brands fa-html5 skill-icon" style="color: #e34f26;"></i>
+                        <span class="skill-name">HTML5</span>
+                        <div class="skill-bar-bg"><div class="skill-bar-fill" style="width: 100%;"></div></div>
+                        <span class="skill-percent">100%</span>
+                    </div>
+                    <div class="skill-box" data-reveal="up" data-reveal-delay="150">
+                        <i class="fa-brands fa-css3-alt skill-icon" style="color: #1572b6;"></i>
+                        <span class="skill-name">CSS3</span>
+                        <div class="skill-bar-bg"><div class="skill-bar-fill" style="width: 75%;"></div></div>
+                        <span class="skill-percent">75%</span>
+                    </div>
+                    <div class="skill-box" data-reveal="up" data-reveal-delay="200">
+                        <i class="fa-brands fa-js skill-icon" style="color: #f7df1e;"></i>
+                        <span class="skill-name">JavaScript</span>
+                        <div class="skill-bar-bg"><div class="skill-bar-fill" style="width: 65%;"></div></div>
+                        <span class="skill-percent">65%</span>
+                    </div>
+                    <div class="skill-box" data-reveal="up" data-reveal-delay="250">
+                        <i class="fa-brands fa-react skill-icon" style="color: #61dafb;"></i>
+                        <span class="skill-name">React JS</span>
+                        <div class="skill-bar-bg"><div class="skill-bar-fill" style="width: 60%;"></div></div>
+                        <span class="skill-percent">60%</span>
+                    </div>
+                    <div class="skill-box" data-reveal="up" data-reveal-delay="300">
+                        <i class="fa-brands fa-python skill-icon" style="color: #3776ab;"></i>
+                        <span class="skill-name">Python</span>
+                        <div class="skill-bar-bg"><div class="skill-bar-fill" style="width: 65%;"></div></div>
+                        <span class="skill-percent">65%</span>
+                    </div>
+                    <div class="skill-box" data-reveal="up" data-reveal-delay="350">
+                        <i class="fa-brands fa-java skill-icon" style="color: #007396;"></i>
+                        <span class="skill-name">Java</span>
+                        <div class="skill-bar-bg"><div class="skill-bar-fill" style="width: 70%;"></div></div>
+                        <span class="skill-percent">70%</span>
+                    </div>
+                    <div class="skill-box" data-reveal="up" data-reveal-delay="400">
+                        <i class="fa-brands fa-node-js skill-icon" style="color: #339933;"></i>
+                        <span class="skill-name">Node.js</span>
+                        <div class="skill-bar-bg"><div class="skill-bar-fill" style="width: 45%;"></div></div>
+                        <span class="skill-percent">45%</span>
+                    </div>
+                    <div class="skill-box" data-reveal="up" data-reveal-delay="450">
+                        <i class="fa-solid fa-code skill-icon" style="color: #092e20;"></i>
+                        <span class="skill-name">Django</span>
+                        <div class="skill-bar-bg"><div class="skill-bar-fill" style="width: 60%;"></div></div>
+                        <span class="skill-percent">60%</span>
+                    </div>
+                    <div class="skill-box" data-reveal="up" data-reveal-delay="500">
+                        <i class="fa-brands fa-github skill-icon" style="color: #f34f29;"></i>
+                        <span class="skill-name">Git & GitHub</span>
+                        <div class="skill-bar-bg"><div class="skill-bar-fill" style="width: 75%;"></div></div>
+                        <span class="skill-percent">75%</span>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Projects Section -->
+        <section id="projects" class="projects section">
+            <div class="container">
+                <div class="section-heading" data-reveal="up">
+                    <h2 class="section-title">Featured Projects</h2>
+                    <div class="underline"></div>
+                </div>
+                <div class="projects-grid">
+                    <!-- Project 1 -->
+                    <div class="project-card glass-card" data-reveal="up" data-reveal-delay="100">
+                        <div class="project-image">
+                            <img src="project-1.jpg" alt="House of Sniff Project" class="project-img">
+                        </div>
+                        <div class="project-content">
+                            <p class="project-date">Jan'25 - Jul'25</p>
+                            <h3 class="project-title">House of Sniff</h3>
+                            <ul class="project-desc-list">
+                                <li>Designed a highly responsive fragrance showcase platform for smooth product exploration.</li>
+                                <li>Delivered an engaging UI that significantly improved accessibility and load times.</li>
+                            </ul>
+                            <div class="project-tech">
+                                <span>HTML</span>
+                                <span>CSS</span>
+                                <span>JavaScript</span>
+                            </div>
+                            <div class="project-actions">
+                                <a href="https://houseofsniff.com/" class="btn btn-icon" title="Live Link"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                                <a href="#" class="btn btn-icon" title="GitHub Repo"><i class="fa-brands fa-github"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- Project 2 -->
+                    <div class="project-card glass-card" data-reveal="up" data-reveal-delay="200">
+                        <div class="project-image">
+                            <img src="project-2.png" alt="My Enhanced Blog Project" class="project-img">
+                        </div>
+                        <div class="project-content">
+                            <p class="project-date">Jun'25 - Jul'25</p>
+                            <h3 class="project-title">My Enhanced Blog</h3>
+                            <ul class="project-desc-list">
+                                <li>Developed an intuitive blogging system allowing users to browse, like, comment, and share.</li>
+                                <li>Created interactive navigation features to simplify and enhance the overall user experience.</li>
+                            </ul>
+                            <div class="project-tech">
+                                <span>HTML</span>
+                                <span>CSS</span>
+                                <span>JavaScript</span>
+                            </div>
+                            <div class="project-actions">
+                                <a href="https://6856d714afb3ac6e8011e9ec--effortless-dango-6b9c40.netlify.app/" class="btn btn-icon" title="Live Link"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                                <a href="#" class="btn btn-icon" title="GitHub Repo"><i class="fa-brands fa-github"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- Project 3 -->
+                    <div class="project-card glass-card" data-reveal="up" data-reveal-delay="300">
+                        <div class="project-image">
+                            <img src="project-3.png" alt="Premium Developer Portfolio" class="project-img">
+                        </div>
+                        <div class="project-content">
+                            <p class="project-date">Mar 2026 - Present</p>
+                            <h3 class="project-title">Premium Developer Portfolio</h3>
+                            <ul class="project-desc-list">
+                                <li>Designed and developed a highly aesthetic, responsive personal portfolio.</li>
+                                <li>Integrated dynamic glassmorphism themes, smooth animations, and interactive elements.</li>
+                            </ul>
+                            <div class="project-tech">
+                                <span>HTML</span>
+                                <span>CSS</span>
+                                <span>JavaScript</span>
+                            </div>
+                            <div class="project-actions">
+                                <a href="#home" class="btn btn-icon" title="Live Link"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                                <a href="#" class="btn btn-icon" title="GitHub Repo"><i class="fa-brands fa-github"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Experience & Education -->
+        <section id="experience" class="timeline-section section glass-section">
+            <div class="container">
+                <div class="section-heading" data-reveal="up">
+                    <h2 class="section-title">Journey</h2>
+                    <div class="underline"></div>
+                </div>
+                
+                <div class="timeline-container">
+                    <div class="timeline-column" data-reveal="left">
+                        <h3 class="timeline-title"><i class="fa-solid fa-graduation-cap"></i> Education</h3>
+                        <div class="timeline-wrap">
+                            <div class="timeline-item">
+                                <div class="timeline-dot"></div>
+                                <div class="timeline-date">Since Aug 2023</div>
+                                <h4 class="timeline-org">Lovely Professional University</h4>
+                                <p class="timeline-role">B.Tech - Computer Science and Engineering</p>
+                                <p class="timeline-details">Phagwara, Punjab | CGPA: 6.0</p>
+                                <img src="lpu-campus.png" alt="LPU Campus" class="timeline-img mt-1">
+                            </div>
+                            <div class="timeline-item">
+                                <div class="timeline-dot"></div>
+                                <div class="timeline-date">Apr 2022 - Mar 2023</div>
+                                <h4 class="timeline-org">Suraj Senior Secondary School</h4>
+                                <p class="timeline-role">Intermediate</p>
+                                <p class="timeline-details">Mahendergarh, Haryana | Percentage: 85%</p>
+                                <img src="school.png" alt="Suraj School" class="timeline-img mt-1">
+                            </div>
+                            <div class="timeline-item">
+                                <div class="timeline-dot"></div>
+                                <div class="timeline-date">Apr 2020 - Mar 2021</div>
+                                <h4 class="timeline-org">Suraj Senior Secondary School</h4>
+                                <p class="timeline-role">Matriculation</p>
+                                <p class="timeline-details">Mahendergarh, Haryana | Percentage: 75%</p>
+                                <img src="school.png" alt="Suraj School" class="timeline-img mt-1">
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="timeline-column" data-reveal="right">
+                        <h3 class="timeline-title"><i class="fa-solid fa-certificate"></i> Training & Certifications</h3>
+                        <div class="timeline-wrap">
+                            <div class="timeline-item">
+                                <div class="timeline-dot"></div>
+                                <div class="timeline-date">Jun 2025 - Jul 2025</div>
+                                <h4 class="timeline-org">Training @ LPU</h4>
+                                <p class="timeline-role">Mastering C++: OOP to DP</p>
+                                <ul class="timeline-list">
+                                    <li>Implemented algorithms using recursion, greedy methods, and DP.</li>
+                                    <li>Strengthened logic and optimization skills with space/time complexity.</li>
+                                </ul>
+                            </div>
+                            <div class="timeline-item">
+                                <div class="timeline-dot"></div>
+                                <div class="timeline-date">Aug 2025</div>
+                                <h4 class="timeline-org">Infosys</h4>
+                                <p class="timeline-role">Computational Theory <a href="#" class="cert-link"><i class="fa-solid fa-link"></i></a></p>
+                                <ul class="timeline-list">
+                                    <li>Explored automata theory, formal languages, and computability concepts.</li>
+                                    <li>Analyzed Turing machines and core computational complexity models.</li>
+                                </ul>
+                            </div>
+                            <div class="timeline-item">
+                                <div class="timeline-dot"></div>
+                                <div class="timeline-date">Apr 2025</div>
+                                <h4 class="timeline-org">Nptel</h4>
+                                <p class="timeline-role">Cloud Computing <a href="#" class="cert-link"><i class="fa-solid fa-link"></i></a></p>
+                                <ul class="timeline-list">
+                                    <li>Studied fundamental deployment architectures and virtualization techniques.</li>
+                                    <li>Examined modern cloud security frameworks and service models.</li>
+                                </ul>
+                            </div>
+                            <div class="timeline-item">
+                                <div class="timeline-dot"></div>
+                                <div class="timeline-date">Sep 2024</div>
+                                <h4 class="timeline-org">Coursera</h4>
+                                <p class="timeline-role">Fundamental of Network Communication<a href="#" class="cert-link"><i class="fa-solid fa-link"></i></a></p>
+                                <ul class="timeline-list">
+                                    <li>Mastered principles of data transmission and TCP/IP architectures.</li>
+                                    <li>Studied routing protocols and structural networking standards.</li>
+                                </ul>
+                            </div>
+                            <div class="timeline-item">
+                                <div class="timeline-dot"></div>
+                                <div class="timeline-date">Oct 2023</div>
+                                <h4 class="timeline-org">Free Code Camp</h4>
+                                <p class="timeline-role">Responsive Web Design <a href="#" class="cert-link"><i class="fa-solid fa-link"></i></a></p>
+                                <ul class="timeline-list">
+                                    <li>Built adaptive layouts using HTML5, CSS Grid, and modern Flexbox.</li>
+                                    <li>Developed completely mobile-first, standards-compliant web pages.</li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Contact Section -->
+        <section id="contact" class="contact section">
+            <div class="container">
+                <div class="section-heading" data-reveal="up">
+                    <h2 class="section-title">Get In Touch</h2>
+                    <div class="underline"></div>
+                </div>
+                
+                <div class="contact-wrapper">
+                    <div class="contact-info glass-card" data-reveal="left">
+                        <h3>Let's Connect</h3>
+                        <p>I am currently open to internship opportunities and collaborations. Feel free to reach out!</p>
+                        <div class="contact-methods">
+                            <div class="contact-method">
+                                <div class="icon-box"><i class="fa-solid fa-envelope"></i></div>
+                                <div class="method-details">
+                                    <h4>Email</h4>
+                                    <p id="email-text">akshyarao006247@gmail.com</p>
+                                </div>
+                                <button class="copy-btn" id="copy-btn" aria-label="Copy Email"><i class="fa-regular fa-copy"></i></button>
+                            </div>
+                            <div class="contact-method">
+                                <div class="icon-box"><i class="fa-solid fa-phone"></i></div>
+                                <div class="method-details">
+                                    <h4>Phone</h4>
+                                    <p>+91-9996316560</p>
+                                </div>
+                            </div>
+                            <div class="contact-method">
+                                <div class="icon-box"><i class="fa-solid fa-location-dot"></i></div>
+                                <div class="method-details">
+                                    <h4>Location</h4>
+                                    <p>Phagwara, Punjab, India</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <form class="contact-form glass-card" data-reveal="right" action="https://formsubmit.co/ajax/akshyarao006247@gmail.com" method="POST">
+                        <input type="hidden" name="_subject" value="New submission from your Portfolio!">
+                        <input type="hidden" name="_captcha" value="false">
+                        <div class="form-group">
+                            <input type="text" id="name" name="name" placeholder=" " required class="form-input">
+                            <label for="name" class="form-label">Your Name</label>
+                            <div class="input-focus-border"></div>
+                        </div>
+                        <div class="form-group">
+                            <input type="email" id="email-input" name="email" placeholder=" " required class="form-input">
+                            <label for="email-input" class="form-label">Your Email</label>
+                            <div class="input-focus-border"></div>
+                        </div>
+                        <div class="form-group">
+                            <textarea id="message" name="message" rows="4" placeholder=" " required class="form-input"></textarea>
+                            <label for="message" class="form-label">Message</label>
+                            <div class="input-focus-border"></div>
+                        </div>
+                        <button type="submit" class="btn btn-primary submit-btn">
+                            <span>Send Message</span> <i class="fa-solid fa-paper-plane"></i>
+                        </button>
+                    </form>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <a href="#" class="logo">Akshya<span class="accent">.</span></a>
+                <p class="footer-text">Building modern web experiences.</p>
+                <div class="footer-social">
+                    <a href="https://github.com/Aakshayyy" target="_blank"><i class="fa-brands fa-github"></i></a>
+                    <a href="https://www.linkedin.com/in/akshya-rao/" target="_blank"><i class="fa-brands fa-linkedin-in"></i></a>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; <span id="year"></span> Akshya Rao. All rights reserved.</p>
+                <p>Built with <i class="fa-solid fa-heart accent"></i> </p>
+            </div>
+        </div>
+        <a href="#home" class="back-top-btn" data-back-top-btn aria-label="Back to Top"><i class="fa-solid fa-arrow-up"></i></a>
+    </footer>
+
+    <!-- Toast Notification -->
+    <div class="toast" id="toast">Email Copied to Clipboard!</div>
+
+    <script src="script.js"></script>
+</body>
+</html>
